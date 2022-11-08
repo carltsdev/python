@@ -1,0 +1,13 @@
+#Python: Se solicita un prestamo al banco de
+#1000m dolares con una tasa de interes del 2% mensual ,
+#calcular cuanto se pagara segun la camtidad
+#de meses que se solicita el prestamo
+
+monto =1000 #Valor constante
+
+meses = int(input("cantidad de meses :  "))
+interes =(monto*(meses*0.02))
+totalp = monto + interes
+
+print("INTERES : {:.2f}".format(interes))
+print("TOTAL A PAGAR: ", totalp)
