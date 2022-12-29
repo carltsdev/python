@@ -1,2 +1,2 @@
 # python
-creación de esta calculadora en el python
+creación de una calculadora en el python
